@@ -72,4 +72,21 @@
     }
   }
 }
+.footer {
+  height: 200px;
+  width: 100%;
+  text-align: right;
+  .social-icon {
+    list-style: none;
+    margin: 65px 0 20px;
+    
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      a {
+        color: #000;
+      }
+    }
+  }
+}
 
