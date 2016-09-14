@@ -149,3 +149,35 @@
     font-weight: 100px;
   }
 }
+.contact {
+  margin-top: 80px;
+
+  h1{
+    margin-bottom: 80px;
+    text-align: right;
+    font-weight: 600;
+  }
+  a {
+    display: block;
+    height: 80px;
+    width: 80px;
+  }
+  .linkedin{
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg");
+  }
+  .github{
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/github-edc899c60c7b3afd0c458e648197f578.svg");
+  }
+  .twitter{
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg");
+  }
+  .facebook{
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/facebook-70848fad6bf158b9a52e47d9bc956b8a.svg");
+  }
+  .gplus{
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/gplus-b3a33145641e08e048cd10ed0ece59ce.svg");
+  }
+  .instagram{
+    background-image: url("https://portfolio-rails-2633.herokuapp.com/assets/instagram-057a090ac0e0184c68efc07e412eec3b.svg");
+  }
+}
