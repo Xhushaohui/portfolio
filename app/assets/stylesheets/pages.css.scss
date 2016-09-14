@@ -37,7 +37,7 @@
 .jumbotron {
   min-height: 600px;
   width: 100%;
-  background: url("https://hd.unsplash.com/photo-1459445364195-16475050193c"), no-repeat center center;
+  background: url("https://hd.unsplash.com/photo-1459445364195-16475050193c") no-repeat center center;
   background-size:cover;
   .container {
     margin: 80px 0;
@@ -89,4 +89,46 @@
     }
   }
 }
-
+.portfolio-slider {
+  min-height: 400px;
+  width: 100%;
+  background: url("https://hd.unsplash.com/photo-1454779132693-e5cd0a216ed3") no-repeat center center;
+  background-size: cover;
+}
+.supporting {
+  margin-top: 80px;
+}
+.project {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 40px;
+  &:hover{
+      color:#cc6cff;
+      text-decoration: none;
+    	transition: color .5s;
+    }
+  .thumbnail-header{
+    height: 20px;
+    width: 100%;
+    background-color: #eaeff4;
+    display: block;
+    .thumbnail-header-btn{
+      background-color: #fff;
+      height: 10px;
+      width: 10px;
+      border-radius: 100%;
+      float: left;
+      margin: 5px 0 0 5px;
+    }
+  }
+  .thumbnail {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    max-height: 240px;
+    overflow: hidden;
+  }
+  h3,p {
+    padding: 0 20px;
+  }
+}
